@@ -1,0 +1,9 @@
+import os
+os.environ['secret_key'] = '**key**'
+os.environ['debug_status'] = 'True'  # True = Dev / False = Prod
+os.environ['allowed_hosts'] = '*'
+os.environ['db_name'] = '**name**'
+os.environ['db_user'] = '**user**'
+os.environ['db_password'] = '**pass**'
+os.environ['db_host'] = '**host**'
+os.environ['db_port'] = '**port**'
