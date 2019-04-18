@@ -14,7 +14,11 @@ if __name__ == '__main__':
     except ImportError:
         print("""
         ########################################################################
-        -> -> -> =! Não localizado arquivo env_vars.py contendo as confs básicas
+        -> -> -> =! Não localizado arquivo env_vars.py 
+        
+        crie uma cópia do arquivo env_vars.py.sample com o nome env_vars.py
+        e ajuste as confs necessárias para uso local
+        ou add as variáveis de ambiente
         ########################################################################
         """)
 
